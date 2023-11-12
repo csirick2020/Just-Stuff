@@ -63,3 +63,9 @@ while True:
                     else:
                         break_outer = True
                         break
+        except ValueError:  # User did not type an integer
+            print()  # style
+            print("Invalid entry. Please type in a valid integer.")
+            print()  # style
+    else:
+        break
